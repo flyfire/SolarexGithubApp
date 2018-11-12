@@ -21,5 +21,6 @@ class ExampleUnitTest {
         println(mainFragment)
         println(mainFragment.presenter)
         println(mainFragment.presenter.view)
+        mainFragment.onResume()
     }
 }
