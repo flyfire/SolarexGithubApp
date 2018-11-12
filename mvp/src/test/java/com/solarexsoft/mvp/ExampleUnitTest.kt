@@ -1,5 +1,6 @@
 package com.solarexsoft.mvp
 
+import com.solarexsoft.mvp.impl.MainActivity
 import com.solarexsoft.mvp.impl.MainFragment
 import org.junit.Assert.assertEquals
 import org.junit.Test
@@ -22,5 +23,14 @@ class ExampleUnitTest {
         println(mainFragment.presenter)
         println(mainFragment.presenter.view)
         mainFragment.onResume()
+    }
+
+    @Test
+    fun testActivityMvp() {
+        val mainActivity = MainActivity()
+        println(mainActivity)
+        println(mainActivity.presenter)
+        println(mainActivity.presenter.view)
+//        mainActivity.onResume()
     }
 }
