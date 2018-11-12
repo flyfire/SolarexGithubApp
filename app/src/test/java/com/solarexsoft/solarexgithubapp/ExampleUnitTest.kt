@@ -1,7 +1,5 @@
 package com.solarexsoft.solarexgithubapp
 
-import com.solarexsoft.common.common.otherwise
-import com.solarexsoft.common.common.yes
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
