@@ -1,4 +1,4 @@
-package com.solarexsoft.solarexgithubapp.common
+package com.solarexsoft.common
 
 
 /**
