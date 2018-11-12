@@ -40,3 +40,6 @@ abstract class BaseFragment<out P: BasePresenter<BaseFragment<P>>>:IMvpView<P>, 
         }
     }
 }
+
+class MainFragment:BaseFragment<MainPresneter>()
+class MainPresneter:BasePresenter<MainFragment>()
